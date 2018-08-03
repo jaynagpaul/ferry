@@ -6,9 +6,13 @@ extern crate serde_json;
 #[macro_use]
 extern crate serde_derive;
 
-pub mod provider;
-pub mod session;
-pub mod user;
+mod provider;
+mod session;
+mod user;
+
+pub use provider::Provider;
+pub use session::{Params, Session};
+pub use user::User;
 
 pub struct Ferry {
     pub providers: Vec<&'static provider::Provider>,

@@ -4,7 +4,8 @@ A simple way to add authentication to Rust apps. **WIP**
 
 ### TODO
 
-- Documentation
+- Prelude
+- Documentation, change Go idioms into Rust idioms
 - Bors?
 - Tests?
 - Coverage?
