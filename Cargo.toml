@@ -1,6 +1,6 @@
 [package]
 name = "ferry"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Jay Nagpaul <hi@jaynagpaul.com>"]
 description = "Ferry provides simple user authentication for Rust."
 readme = "README.md"
