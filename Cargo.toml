@@ -1,13 +1,13 @@
 [package]
-name = "harbor"
+name = "ferry"
 version = "0.0.1"
 authors = ["Jay Nagpaul <hi@jaynagpaul.com>"]
-description = "Harbor provides simple user authentication for Rust."
+description = "Ferry provides simple user authentication for Rust."
 readme = "README.md"
 keywords = ["web", "authentication", "security"]
 categories = ["authentication", "web-programming"]
 license = "MIT"
-repository = "https://github.com/jaynagpaul/harbor"
+repository = "https://github.com/jaynagpaul/ferry"
 
 exclude = [".gitignore"]
 

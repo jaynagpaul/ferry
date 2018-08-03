@@ -10,13 +10,13 @@ pub mod provider;
 pub mod session;
 pub mod user;
 
-pub struct Harbor {
+pub struct Ferry {
     pub providers: Vec<&'static provider::Provider>,
 }
 
-impl Harbor {
-    pub fn new(providers: Vec<&'static provider::Provider>) -> Harbor {
-        Harbor {
+impl Ferry {
+    pub fn new(providers: Vec<&'static provider::Provider>) -> Ferry {
+        Ferry {
             providers: providers,
         }
     }
@@ -31,6 +31,6 @@ mod tests {
 
     // #[test]
     // fn add_provider() {
-    //     let mut harbor = Harbor::new(vec![Provider{}])
+    //     let mut ferry = Ferry::new(vec![Provider{}])
     // }
 }
